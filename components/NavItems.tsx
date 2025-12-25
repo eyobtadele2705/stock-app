@@ -1,8 +1,8 @@
 'use client'
 import React from 'react'
-import NAV_ITEMS from "@/lib/constant";
 import Link from "next/link";
 import {usePathname} from "next/navigation";
+import {NAV_ITEMS} from "@/lib/constant";
 
 const NavItems = () => {
     const pathname= usePathname()
